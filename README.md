@@ -53,6 +53,17 @@ A simple Flask task queue through Redis Queue (RQ).
     17:23:23 *** Listening on default...
     ```
 
+* Setup the project
+
+    ```
+    # activate the environment
+    source taskqueue_rq/bin/activate
+
+    # install the libraries
+    pip install -r requirements.txt
+    ```
+
+
 * Run the Flask
     ```
     export FLASK_APP=run.py
