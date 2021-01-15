@@ -1,3 +1,5 @@
+# init the project as a package
+
 from flask import Flask
 import redis
 from rq import Queue
@@ -15,3 +17,4 @@ else:
 print(f'ENV is set to: {app.config["ENV"]}')
 
 from app import views
+from app import tasks

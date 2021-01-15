@@ -43,6 +43,7 @@ A simple Flask task queue through Redis Queue (RQ).
 * Run the Redis Queue
 
     ```
+    cd <directory where run.py is located>
     rq worker
     ```
 
@@ -87,4 +88,11 @@ Task complete
 17:30:01 default: Job OK (29754d5e-69f4-4f91-a1b9-e85ba659d431)
 17:30:01 Result is kept for 500 seconds
 ```
+
+<br>
+
+### Reference
+1. <a href="https://python-rq.org/">Redis Queue offical site</a>
+2. <a href="https://pythonise.com/series/learning-flask/flask-rq-task-queue">Code Reference</a>
+
 

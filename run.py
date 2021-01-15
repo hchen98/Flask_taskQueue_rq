@@ -1,3 +1,5 @@
+# entry point of the project
+
 from app import app
 
 if __name__ == "__main__":
